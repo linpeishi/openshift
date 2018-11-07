@@ -29,3 +29,5 @@ CONFIG_JSON配置文件
 { "log": { "loglevel": "warning" }, "inbound": { "protocol": "vmess", "port": 8080, "settings": { "clients": [ { "id": "uuid", "alterId": 233, "security": "aes-128-gcm" } ] }, "streamSettings": { "network": "ws" } }, "inboundDetour": [], "outbound": { "protocol": "freedom", "settings": {} } }
 
 PC端配置： 端口443 底层传输安全tls
+
+
